@@ -21,7 +21,7 @@ As an additional precaution, you should only allow **"site access"** to the Whal
 
 
 ---
-It's not safe or secure to use your private keys or master passwords directly on a website, even if operated by a trusted party, as it also incentivizes hackers to find site vulnerabilities and exploit them.  Yet this is still how many graphene-based sites and services still operate.  This attack vector increases with the type of key required.  Master passwords offer the greatest potential reward, granting an attacker complete control over the account.
+It's not safe or secure to use your private keys or master passwords directly on a website, even if operated by a trusted party, as it also incentivizes hackers to find site vulnerabilities and exploit them.  Yet this is how many graphene-based sites and services still operate.  This attack vector increases with the type of key required.  Master passwords offer the greatest potential reward, granting an attacker complete control over the account.
 
 On Ethereum, you never have to enter your private key into a website to use a dApp.  You just use a browser extension like MetaMask, and dApp websites can interface with the extension to securely sign and broadcast transactions to the blockchain on its behalf.
 
