@@ -6,7 +6,7 @@ For developers looking to integrate **WhaleVault** into their sites, the demo ap
 with all you need: https://github.com/alexpmorris/crypto-playpen/tree/master/whalevault
 
 A more detailed overview of WhaleVault may be found at: 
-https://whaleshares.io/@alexpmorris/whalevault-secure-graphene-cross-chain-key-store-extension
+https://wlsworld.vip/@alexpmorris/whalevault-secure-graphene-cross-chain-key-store-extension
 
 ## Installation
 Make sure you only install the extension directly from:
@@ -27,13 +27,13 @@ On Ethereum, you never have to enter your private key into a website to use a dA
 
 WhaleVault aims to bring the security and ease-of-use of MetaMask to all graphene-based blockchains, accessible through a single unified extension.
 
-WhaleVault, based on Steem Keychain, is a better, safer cross-chain way to access all your graphene accounts from both desktop and mobile browsers such as Chrome, Firefox, Brave, and Yandex.  Graphene blockchains supported out-of-the-box include WhaleShares, BitShares, Eos, Steem, Hive, Blurt, Smoke, Telos, Worbli, Golos, Peerplays, Scorum, and Vice.  WhaleVault is also the "key vault of choice" for ShareBits.
+WhaleVault is a better, safer cross-chain way to access all your graphene accounts from Chrome-based browsers (including Brave, Opera, Yandex Mobile, and Kiwi Mobile), Firefox, and Firefox Android. Graphene blockchains supported out-of-the-box include WhaleShares wlsWorld, BitShares, EOS/Vaulta, Steem, Hive, Blurt, Telos, Golos/CyberWay, Peerplays, and Scorum.
 
 The extension injects the WhaleVault API into each website's javascript context, so that any website that you authorize can safely and securely request a signature or encrypt/decrypt a memo without ever having direct access to any of your private keys.
 
 Because it adds functionality to the normal browser context, WhaleVault requires permission to read and write any web page that wishes to access the extension. You can always "view source" of WhaleVault the way you would any Chrome extension or Firefox Add-on, or from the official GitHub repo: https://github.com/alexpmorris/whalevault
 
-For those not using Steem Keychain and/or Hive Keychain, WhaleVault will also act as a polyfill for Steem Keychain, Hive Keychain, and Blurt Keychain for seamlessly and securely transacting with any app or wallet that supports them.  That includes Steem-Engine and Hive-Engine support, all from a single extension!
+For those not using Steem Keychain and/or Hive Keychain, WhaleVault will also act as a polyfill for Steem Keychain, Hive Keychain, and Blurt Keychain for seamlessly and securely transacting with any app or wallet that supports them. That includes Steem-Engine and Hive-Engine support, all from a single extension!
 
 WhaleVault is a multi-chain fork by @alexpmorris of the Steem Keychain browser extension.  Steem Keychain (repo at https://github.com/MattyIce/steem-keychain) was originally created by @yabapmatt, developed by @stoodkev, and funded by @aggroed. Many thanks to them for creating a great template upon which to build WhaleVault!
 
@@ -138,7 +138,7 @@ var ops = [
 ];
 
 whalevault.requestSignBuffer('demo', 'wls:user', 
-                             { url: 'https://pubrpc.whaleshares.io', operations: ops }, 
+                             { url: 'https://pubrpc.wlsworld.vip', operations: ops }, 
                              'Active', 'transfer', 'tx', 
                              function(response) { console.log(response); });
 ```
